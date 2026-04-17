@@ -58,28 +58,6 @@ Hvis objekterne ikke findes i miljøet, forsøger appen automatisk at indlæse:
 - `Brondby_model.rds`
 - `Superliga_model.rds`
 
-## Sådan kører du projektet lokalt
-
-1. Klon repository:
-
-```bash
-git clone <repo-url>
-cd "<repo-mappe>"
-```
-
-2. Installer nødvendige pakker i R:
-
-```r
-install.packages(c("shiny", "dplyr", "ggplot2", "pROC", "rpart", "randomForest"))
-```
-
-3. Sørg for, at datafiler/objekter er tilgængelige (se **Datakrav**).
-
-4. Start appen:
-
-```r
-source("Opgave 1 - shiny.R")
-```
 
 ## Hvordan xG bruges i projektet
 

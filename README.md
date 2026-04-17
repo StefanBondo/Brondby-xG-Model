@@ -19,19 +19,9 @@ Appen indeholder tre faner:
    - Viser `Accuracy`, `AUC` og `Brier score`
    - Viser ROC-kurver og fordeling af forudsagte sandsynligheder
 
-2. **Hold 1.6**
-   - Viser xG og faktiske mål pr. kamp for valgt hold/periode
-   - Viser opsummering: skud, mål, total xG og gennemsnitlig xG pr. skud
-   - Viser topspillere baseret på xG
-
-3. **Spiller-sammenligning**
-   - Sammenligner én reference-spiller med udvalgte ligaspillere
-   - Viser nøgletal som skud, mål, total xG og mål minus xG
-
 ## Teknologier
 
 - R
-- Shiny
 - dplyr
 - ggplot2
 - pROC
@@ -40,23 +30,7 @@ Appen indeholder tre faner:
 
 ## Filer i projektet
 
-- `Opgave 1 - shiny.R`: Hovedapp (UI + server)
-- `Opgave 1.4.R`: Eksempel på modeltræning og evaluering
-- Datafiler indlæses fra `.RData` eller `.rds` (se afsnittet nedenfor)
-
-## Datakrav
-
-Appen forventer dataobjekter med følgende navne:
-
-- `model_data`
-- `Superliga_model` (eller alternativt `Brondby_model`)
-
-Hvis objekterne ikke findes i miljøet, forsøger appen automatisk at indlæse:
-
-- `.RData`
-- `model_data.rds`
-- `Brondby_model.rds`
-- `Superliga_model.rds`
+- `xG - Model`:
 
 
 ## Hvordan xG bruges i projektet

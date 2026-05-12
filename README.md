@@ -1,4 +1,4 @@
-# xG Model og Shiny Dashboard
+# xG Model
 
 Dette projekt estimerer sandsynligheden for, at et skud bliver til mål (xG), og viser resultaterne i en interaktiv Shiny-app.
 
